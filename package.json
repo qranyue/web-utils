@@ -1,0 +1,21 @@
+{
+  "name": "@qranyue/web-utils",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
